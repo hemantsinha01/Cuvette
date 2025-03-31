@@ -112,7 +112,5 @@ A full-stack event management platform built using React.js and Node.js, providi
 ## License
 This project is open-source and available under the MIT License.
 
----
 
-Now you're all set! Clone the repository and start building your own event management system. 🚀
 
