@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
           return
         }
 
-        const response = await axios.get("http://localhost:5000/api/auth/current-user", {
+        const response = await axios.get("https://cuvette-n9hj.onrender.com/api/auth/current-user", {
           headers: { Authorization: token },
         })
 
