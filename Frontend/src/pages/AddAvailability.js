@@ -37,7 +37,7 @@ const AddAvailability = () => {
         return
       }
 
-      const response = await axios.get("http://localhost:5000/api/auth/availability", {
+      const response = await axios.get("https://cuvette-n9hj.onrender.com/api/auth/availability", {
         headers: {
           Authorization: token,
         },
@@ -143,7 +143,7 @@ const AddAvailability = () => {
 
       // Send data to backend
       const response = await axios.post(
-        "http://localhost:5000/api/auth/availability",
+        "https://cuvette-n9hj.onrender.com/api/auth/availability",
         { weeklyAvailability: weeklyHours },
         {
           headers: {
